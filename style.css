@@ -1,0 +1,164 @@
+/* RESET CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    appearance: none;
+}
+/* RESET CSS */
+
+/* BODY */
+body{
+    background-color: rgb(208, 237, 255);
+
+}
+/* BODY */
+
+/* SECTION */
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+    height: 500px; /* altura */
+    width: 700px; /* largura */
+    margin: 150px auto;
+}
+/* SECTION */
+
+/* DIV CONTAINER */
+.container{
+    
+}
+
+.titulo{
+    font-family:sans-serif;
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-left: 280px;
+}
+
+.valor{
+    font-size: 30px;
+    margin-left: 280px;
+}
+
+.desc{
+    font-size: 15px;
+    margin-top: 4px;
+    color: rgb(80, 180, 110);
+    margin-left: 280px;
+}
+
+.txt{
+    font-size: 15px;
+    height: fit-content;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 280px;
+    margin-bottom: 10px;
+}
+/* DIV CONTAINER */
+
+/* DIV ESTILOS */
+.estilos{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    margin-left: 215px;
+    margin-top: 30px;
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    color: blue;
+}
+
+.tamanho{
+    display: inline-block;
+}
+
+.tam{
+    display: inline-block;
+    list-style-type: none;
+    margin: 5px;
+    align-items: center;
+}
+
+/* DIV ESTILOS */
+
+/* DIV COR */
+.cor{
+    margin-right: 32px;
+}
+.cores{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 155px;
+    margin-top: 10px;
+    gap: 5px;
+}
+
+.co1{
+    display: inline-block;
+    list-style-type: none;
+    margin: 3px;
+    align-items: center;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: red;
+    cursor: pointer;
+}
+.co1.red{
+    background-color: red;
+}
+
+.co1.green{
+    background-color: green;
+}
+
+.co1.blue{
+    background-color: blue;
+}
+
+.co1.lightpink{
+    background-color: lightpink;
+}
+/* DIV COR */
+
+/* DIV QUANTIDADE */
+.quant{
+    display: inline-block;
+    padding: 10px;
+    margin-left: 90px;
+}
+
+input{
+    text-align: center;
+    border-radius: 100px;
+    background-color: rgba(238, 238, 238, 0.895);
+    border: 0;
+    width: 40px;
+}
+/* DIV QUANTIDADE */
+
+/* BUTTON */
+button{
+    padding: 10px;
+    width: 270px;
+    border-radius: 50px;
+    background-color: rgba(86, 1, 255, 0.822);
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    border: 0;
+    margin-top: 30px;
+    margin-left: 280px;
+}
+/* BUTTON */
