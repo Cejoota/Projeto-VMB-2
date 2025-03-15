@@ -159,3 +159,12 @@ button{
     cursor: pointer;
 }
 /* BUTTON */
+
+/* IMAGES */
+.img1{
+    width: auto;
+    height: 400px;
+    z-index: 1;
+    margin-top: 200px;
+}
+/* IMAGES */
