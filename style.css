@@ -98,13 +98,13 @@ a:hover{
 }
 
 .cor{
-    margin-right: 32px;
+    margin-right: 35px;
 }
 
 .co1{
     display: inline-block;
     list-style-type: none;
-    margin: 3px;
+    margin: 0 5px;
     align-items: center;
     width: 15px;
     height: 15px;
