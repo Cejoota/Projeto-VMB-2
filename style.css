@@ -84,6 +84,7 @@ a:hover{
     display: inline-block;
     list-style-type: none;
     align-items: center;
+    margin: 5px;
 }
 
 /* DIV ESTILOS */
