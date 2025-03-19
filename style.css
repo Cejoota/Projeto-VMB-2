@@ -156,6 +156,7 @@ button{
     border: 0;
     cursor: pointer;
     margin: 60px ;
+    text-shadow: 2px 2px 2px black;
 }
 /* BUTTON */
 
