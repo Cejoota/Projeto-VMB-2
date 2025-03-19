@@ -2,8 +2,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    appearance: none;
 }
 /* RESET CSS */
 
@@ -136,7 +134,7 @@ a:hover{
     color: rgb(143, 143, 143);
 }
 
-input{
+.input{
     text-align: center;
     border-radius: 100px;
     background-color: rgba(190, 190, 190, 0.455);
@@ -163,6 +161,57 @@ button{
 
 /* IMAGES */
 .img1{
-  height: 550px;
+    transition: opacity 1s ease-in-out;
+    height: 550px;
 }
+
+.img2, .img3, .img4{
+    display: none;
+    position: absolute;
+    height: 550px;
+}
+
 /* IMAGES */
+
+/* CHECKBOX */
+
+.container-check{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.container-check #check1, #check2, #check3{
+    position: relative;
+    bottom: 100px;
+    right: 15px;
+    z-index: 1;
+}
+
+#check1:checked + .img1{
+    display: none;
+}
+
+#check1:checked ~ .img2{
+    display: block;
+}
+
+#check2:checked + .img2{
+    display: none;
+}
+
+#check2:checked ~ .img3{
+    display: block;
+}
+
+#check3:checked + .img3{
+    display: none;
+}
+
+#check3:checked ~ .img4{
+    display: block;
+}
+
+/* CHECKBOX */
