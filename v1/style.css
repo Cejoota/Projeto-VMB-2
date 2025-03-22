@@ -185,10 +185,10 @@ button{
 }
 
 .container-check #check1, #check2, #check3{
-    position: relative;
-    bottom: 100px;
-    right: 15px;
-    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-100%, -100%);
 }
 
 #check1:checked + .img1{
@@ -216,3 +216,32 @@ button{
 }
 
 /* CHECKBOX */
+
+/* LABEL */
+    .lb{
+        display: block;
+        height: 13px;
+        width: 13px;
+        border-radius: 100%;
+        background-color: #9c9a9a;
+        cursor: pointer;
+        position: relative;
+        bottom: 120px;
+        right: 15px;
+        z-index: 5;
+    }
+
+    .rad1:checked ~ .container .container-check .item1{
+        display: block;
+    }
+    .rad2:checked ~ .container .container-check .item2{
+        display: block;
+    }
+    .rad3:checked ~ .container .container-check .item3{
+        display: block;
+    }
+
+    .rad:checked + .lb{
+        background-color: rgba(86, 1, 255, 0.822);
+    }
+    /* LABEL */
